@@ -1,0 +1,33 @@
+body {
+  background-color: #967bb6;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+h1 {
+  color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 85px;
+  font-style: normal;
+  text-align: center;
+}
+li {
+  color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  font-style: normal;
+  text-align: left;
+}
+a{
+  color: #000000; /*Fallback*/
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+a:hover{
+  color: #F5F5F5;
+  transition: color 1s ease-in;
+}
